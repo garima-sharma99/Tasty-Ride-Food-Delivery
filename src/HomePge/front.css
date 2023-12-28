@@ -1,0 +1,27 @@
+/* .img{
+    
+} */
+.front-head {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 70%;
+    
+}
+
+.front-button{
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.front-img {
+    
+    position: relative;
+    left: 0.9%;
+    
+}
+
+.front-img .img-height{
+    height: 75vh;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './signup.css'
 
 function SignUp() {
     const [user, setUser] = useState({})
@@ -123,16 +124,9 @@ function SignUp() {
         <>
             <div className="container-fluid mb-5">
                 
-                <div className="write d-flex">
-                    <div className='bg-danger border rounded-circle mt-2'>
-                        <h2 className='text-warning fw-bolder p-3'>TasTy RiDe</h2>
-                    </div>
-                </div>
-                <div className='wel-head d-flex mt-5 mx-5'>
-
-                    <h3 className='bg-danger shadow p-3 mb-5 bg-body rounded text-danger border border-warning border-5 fw-bolder'>Welcome</h3>
-                </div>
-                <p className='text-secondary mx-5 fw-normal'>Sign Up with your email or phone.</p>
+               
+                
+                <p className='text-secondary mx-5 mt-5 fw-normal'>Sign Up with your email or phone.</p>
                 <div className="wrapper d-flex w-100">
                 <div className='border-0 w-25 mx-5 mt-5'>
 
@@ -170,8 +164,8 @@ function SignUp() {
                     <button type="submit" className="btn btn-danger text-warning fw-bolder mx-5 mt-3 fs-5" onClick={handleSubmit}>Submit</button>
 
                 </div>
-                <div className="image d-flex">
-                    <img className='img-fluid w-75 justify-content-end' src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="" />
+                <div className="login-img d-flex">
+                    <img className='img-fluid sign-img' src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="" />
                 </div>
                 <div>
 

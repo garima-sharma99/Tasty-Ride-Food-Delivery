@@ -1,4 +1,5 @@
 import React from 'react'
+import './footer.css'
 
 function Footer() {
     return (
@@ -14,11 +15,11 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid d-flex'>
+            <div className='container-fluid d-flex footer-logo'>
                 <div className='bg-danger border rounded-circle mt-2'>
            <h2 className='text-warning fw-bolder p-3'>TasTy RiDe</h2>
                 </div>
-                <div className='d-flex justify-content-end'>
+                <div className='d-flex footer-copy'>
                     <p className='text-danger fw-bold'>
                         &#169; ALL RIGHTS RESERVED
                     </p>

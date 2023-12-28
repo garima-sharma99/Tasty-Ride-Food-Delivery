@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './navbar.css'
 
 function Navbar() {
     return (
@@ -18,24 +20,24 @@ function Navbar() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         {/* <div className="collapse navbar-collapse" id="navbarNavDropdown"> */}
-                        <div className='bg-danger border rounded-circle'>
+                        <div className='nav-logo bg-danger border rounded-circle'>
                             <h2 className='text-warning fw-bolder p-3'>TasTy RiDe</h2>
                         </div>
                         <ul className="navbar-nav d-flex flex-row">
                             <li className="nav-item mx-3">
-                                <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                                <Link className="nav-link active" aria-current="page" to="/">HOME</Link>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link" href="#">MENU</a>
+                                <Link className="nav-link" to="menu">MENU</Link>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link" href="#">CONTACT</a>
+                                <Link className="nav-link" to="contact">CONTACT</Link>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link" href="#">ORDERS</a>
+                                <Link className="nav-link" to="order">ORDERS</Link>
                             </li>
                             <li className="nav-item mx-3">
-                                <a className="nav-link" href="#">LOGIN</a>
+                                <Link className="nav-link" to="login">LOGIN</Link>
                             </li>
 
                         </ul>
