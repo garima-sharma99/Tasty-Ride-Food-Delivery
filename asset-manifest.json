@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tasty-Ride-Food-Delivery/static/css/main.f98bf8f8.css",
+    "main.js": "/Tasty-Ride-Food-Delivery/static/js/main.94d13766.js",
+    "static/js/787.bc8c0501.chunk.js": "/Tasty-Ride-Food-Delivery/static/js/787.bc8c0501.chunk.js",
+    "index.html": "/Tasty-Ride-Food-Delivery/index.html",
+    "main.f98bf8f8.css.map": "/Tasty-Ride-Food-Delivery/static/css/main.f98bf8f8.css.map",
+    "main.94d13766.js.map": "/Tasty-Ride-Food-Delivery/static/js/main.94d13766.js.map",
+    "787.bc8c0501.chunk.js.map": "/Tasty-Ride-Food-Delivery/static/js/787.bc8c0501.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f98bf8f8.css",
+    "static/js/main.94d13766.js"
+  ]
+}
